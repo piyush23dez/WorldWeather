@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Coordinate"
+- "WeatherConstants"
+- "ScreenSize"
+- "DeviceType"
+provides-nominal:
+- "C13WeatherClient16WeatherConstants"
+- "OC13WeatherClient16WeatherConstants8NibNames"
+- "V13WeatherClient10ScreenSize"
+- "V13WeatherClient10DeviceType"
+provides-member:
+- ["C13WeatherClient16WeatherConstants", ""]
+- ["OC13WeatherClient16WeatherConstants8NibNames", ""]
+- ["V13WeatherClient10ScreenSize", ""]
+- ["V13WeatherClient10DeviceType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "WeatherConstants"
+- "ScreenSize"
+- "UIDevice"
+- "min"
+- "Coordinate"
+- "Double"
+- "UIScreen"
+- "String"
+- "=="
+- "DeviceType"
+- "<"
+- "max"
+- "&&"
+- "StringLiteralType"
+- "CGFloat"
+depends-member:
+- ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- ["PSs16AbsoluteValuable", "Stride"]
+- !private ["PSs9AnyObject", "UIScreen"]
+- ["PSs9AnyObject", "bounds"]
+- ["PSs9AnyObject", "currentDevice"]
+- ["PSs9AnyObject", "mainScreen"]
+- ["PSs9AnyObject", "userInterfaceIdiom"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "width"]
+- ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "Stride"]
+- ["PSs11CVarArgType", "bounds"]
+- ["PSs11CVarArgType", "currentDevice"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- ["PSs11CVarArgType", "mainScreen"]
+- ["PSs11CVarArgType", "userInterfaceIdiom"]
+- ["PSs10Comparable", "IntegerLiteralType"]
+- ["PSs10Comparable", "Stride"]
+- !private ["PSs10Comparable", "hashValue"]
+- ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- ["PSs23CustomStringConvertible", "Stride"]
+- ["PSs23CustomStringConvertible", "bounds"]
+- ["PSs23CustomStringConvertible", "currentDevice"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- ["PSs23CustomStringConvertible", "mainScreen"]
+- ["PSs23CustomStringConvertible", "userInterfaceIdiom"]
+- ["V13WeatherClient10DeviceType", "IS_IPAD"]
+- ["V13WeatherClient10DeviceType", "IS_IPHONE_4_OR_LESS"]
+- ["V13WeatherClient10DeviceType", "IS_IPHONE_5"]
+- ["V13WeatherClient10DeviceType", "IS_IPHONE_6"]
+- ["V13WeatherClient10DeviceType", "IS_IPHONE_6P"]
+- ["V13WeatherClient10DeviceType", "ScreenSize"]
+- ["V13WeatherClient10DeviceType", "UIDevice"]
+- ["V13WeatherClient10DeviceType", "init"]
+- ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "Pad"]
+- ["PSs9Equatable", "Phone"]
+- ["PSs9Equatable", "RawValue"]
+- ["PSs9Equatable", "Stride"]
+- ["PSs9Equatable", "WeatherView"]
+- ["PSs9Equatable", "bounds"]
+- ["PSs9Equatable", "currentDevice"]
+- ["PSs9Equatable", "hashValue"]
+- ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "mainScreen"]
+- ["PSs9Equatable", "size"]
+- ["PSs9Equatable", "userInterfaceIdiom"]
+- ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- ["PSs23FloatLiteralConvertible", "Stride"]
+- ["PSs17FloatingPointType", "IntegerLiteralType"]
+- ["PSs17FloatingPointType", "Stride"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "Pad"]
+- ["PSs8Hashable", "Phone"]
+- ["PSs8Hashable", "RawValue"]
+- ["PSs8Hashable", "Stride"]
+- ["PSs8Hashable", "WeatherView"]
+- ["PSs8Hashable", "bounds"]
+- ["PSs8Hashable", "currentDevice"]
+- ["PSs8Hashable", "hashValue"]
+- ["PSs8Hashable", "mainScreen"]
+- ["PSs8Hashable", "userInterfaceIdiom"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- !private ["PSs11IntegerType", "hashValue"]
+- !private ["P13WeatherClient17JSONSubscriptType", "hashValue"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "currentDevice"]
+- ["CSo8NSObject", "mainScreen"]
+- ["CSo8NSObject", "userInterfaceIdiom"]
+- ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "currentDevice"]
+- ["PSo16NSObjectProtocol", "mainScreen"]
+- ["PSo16NSObjectProtocol", "userInterfaceIdiom"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "String"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "WeatherView"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "deinit"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "hashValue"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "nibName"]
+- ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- ["PSs16RawRepresentable", "Pad"]
+- ["PSs16RawRepresentable", "Phone"]
+- ["PSs16RawRepresentable", "RawValue"]
+- ["V13WeatherClient10ScreenSize", "SCREEN_HEIGHT"]
+- ["V13WeatherClient10ScreenSize", "SCREEN_MAX_LENGTH"]
+- ["V13WeatherClient10ScreenSize", "SCREEN_MIN_LENGTH"]
+- ["V13WeatherClient10ScreenSize", "SCREEN_WIDTH"]
+- ["V13WeatherClient10ScreenSize", "ScreenSize"]
+- ["V13WeatherClient10ScreenSize", "UIScreen"]
+- ["V13WeatherClient10ScreenSize", "init"]
+- ["V13WeatherClient10ScreenSize", "max"]
+- ["V13WeatherClient10ScreenSize", "min"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- ["PSs16SignedNumberType", "IntegerLiteralType"]
+- ["PSs16SignedNumberType", "Stride"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- ["PSs10Strideable", "IntegerLiteralType"]
+- ["PSs10Strideable", "Stride"]
+- !private ["PSs10Strideable", "hashValue"]
+- ["CSo8UIDevice", "currentDevice"]
+- ["CSo8UIDevice", "userInterfaceIdiom"]
+- ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "mainScreen"]
+- ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "mainScreen"]
+- ["OSC20UIUserInterfaceIdiom", "Pad"]
+- ["OSC20UIUserInterfaceIdiom", "Phone"]
+- ["OSC20UIUserInterfaceIdiom", "RawValue"]
+- ["OSC20UIUserInterfaceIdiom", "deinit"]
+- ["C13WeatherClient16WeatherConstants", "CGFloat"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLatLongDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLatitudeDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLongitudeDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "NibNames"]
+- ["C13WeatherClient16WeatherConstants", "String"]
+- !private ["C13WeatherClient16WeatherConstants", "UIScreen"]
+- ["C13WeatherClient16WeatherConstants", "apiKey"]
+- ["C13WeatherClient16WeatherConstants", "deinit"]
+- ["C13WeatherClient16WeatherConstants", "init"]
+- ["C13WeatherClient16WeatherConstants", "screenHeight"]
+- ["C13WeatherClient16WeatherConstants", "screenWidth"]
+- ["C13WeatherClient16WeatherConstants", "weatherInfoURL"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- ["PSs19_CVarArgAlignedType", "Stride"]
+- ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- ["PSs12_Reflectable", "height"]
+- ["PSs12_Reflectable", "size"]
+- ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- ["PSs11_Strideable", "IntegerLiteralType"]
+- ["PSs11_Strideable", "Stride"]
+- !private ["PSs11_Strideable", "hashValue"]
+depends-nominal:
+- "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "V13WeatherClient10DeviceType"
+- "PSs9Equatable"
+- "PSs23FloatLiteralConvertible"
+- "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "P13WeatherClient17JSONSubscriptType"
+- !private "PSs14MirrorPathType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "OC13WeatherClient16WeatherConstants8NibNames"
+- "Sq"
+- !private "PSs21RandomAccessIndexType"
+- "PSs16RawRepresentable"
+- "V13WeatherClient10ScreenSize"
+- !private "PSs17SignedIntegerType"
+- "PSs16SignedNumberType"
+- "PSs10Strideable"
+- "CSo8UIDevice"
+- "CSo8UIScreen"
+- "PSo18UITraitEnvironment"
+- "OSC20UIUserInterfaceIdiom"
+- "C13WeatherClient16WeatherConstants"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs19_CVarArgAlignedType"
+- "PSs22_CVarArgPassedAsDouble"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "302a0dc40807ff18b32b40ecbace364a"

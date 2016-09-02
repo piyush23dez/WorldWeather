@@ -1,0 +1,134 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Response"
+- "HttpClient"
+provides-nominal:
+- "O13WeatherClient8Response"
+- "C13WeatherClient10HttpClient"
+provides-member:
+- ["O13WeatherClient8Response", ""]
+- ["C13WeatherClient10HttpClient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Response"
+- "NSURL"
+- "HttpClient"
+- "NSURLSession"
+- !private "NSHTTPURLResponse"
+- "NSError"
+- "Void"
+- "AnyObject"
+- !private "=="
+- !private "Int"
+depends-member:
+- ["PSs9AnyObject", "NSURLSession"]
+- !private ["PSs9AnyObject", "Response"]
+- !private ["PSs9AnyObject", "dataTaskWithURL"]
+- !private ["PSs9AnyObject", "resume"]
+- !private ["PSs9AnyObject", "session"]
+- ["PSs9AnyObject", "sharedSession"]
+- !private ["PSs9AnyObject", "statusCode"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "dataTaskWithURL"]
+- !private ["PSs11CVarArgType", "resume"]
+- ["PSs11CVarArgType", "sharedSession"]
+- !private ["PSs11CVarArgType", "statusCode"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithURL"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- ["PSs23CustomStringConvertible", "sharedSession"]
+- !private ["PSs23CustomStringConvertible", "statusCode"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "dataTaskWithURL"]
+- !private ["PSs9Equatable", "resume"]
+- ["PSs9Equatable", "sharedSession"]
+- !private ["PSs9Equatable", "statusCode"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "dataTaskWithURL"]
+- !private ["PSs8Hashable", "resume"]
+- ["PSs8Hashable", "sharedSession"]
+- !private ["PSs8Hashable", "statusCode"]
+- ["C13WeatherClient10HttpClient", "AnyObject"]
+- ["C13WeatherClient10HttpClient", "CompletionHandler"]
+- !private ["C13WeatherClient10HttpClient", "Int"]
+- !private ["C13WeatherClient10HttpClient", "NSHTTPURLResponse"]
+- ["C13WeatherClient10HttpClient", "NSURL"]
+- ["C13WeatherClient10HttpClient", "NSURLSession"]
+- ["C13WeatherClient10HttpClient", "Response"]
+- ["C13WeatherClient10HttpClient", "Void"]
+- ["C13WeatherClient10HttpClient", "deinit"]
+- ["C13WeatherClient10HttpClient", "init"]
+- ["C13WeatherClient10HttpClient", "sendRequest"]
+- ["C13WeatherClient10HttpClient", "session"]
+- !private ["C13WeatherClient10HttpClient", "session.storage"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["CSo8NSObject", "dataTaskWithURL"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithURL"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithURL"]
+- ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["O13WeatherClient8Response", "AnyObject"]
+- ["O13WeatherClient8Response", "Failure"]
+- ["O13WeatherClient8Response", "NSError"]
+- ["O13WeatherClient8Response", "Success"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C13WeatherClient10HttpClient"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo17NSHTTPURLResponse"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo13NSURLResponse"
+- "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- "O13WeatherClient8Response"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "c1bd3fa069daf4707131e2eae4344f71"

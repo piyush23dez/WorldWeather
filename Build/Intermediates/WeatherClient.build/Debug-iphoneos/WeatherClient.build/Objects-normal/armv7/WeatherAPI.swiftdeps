@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherAPI"
+provides-nominal:
+- "C13WeatherClient10WeatherAPI"
+provides-member:
+- ["C13WeatherClient10WeatherAPI", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- !private "Response"
+- "DataManager"
+- "HttpClient"
+- !private "WeatherConstants"
+- !private "NSURL"
+- "WeatherAPI"
+- !private "AnyObject"
+- "BooleanLiteralType"
+- "Void"
+- !private "Bool"
+- !private "NSError"
+- "Weather"
+- !private "NSData"
+- !private "JSON"
+depends-member:
+- !private ["PSs9AnyObject", "DataManager"]
+- !private ["PSs9AnyObject", "HttpClient"]
+- !private ["PSs9AnyObject", "JSON"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "Weather"]
+- ["PSs9AnyObject", "WeatherAPI"]
+- !private ["PSs9AnyObject", "WeatherConstants"]
+- !private ["PSs9AnyObject", "WeatherFetchError"]
+- !private ["PSs9AnyObject", "WeatherInfoFetched"]
+- !private ["PSs9AnyObject", "apiKey"]
+- !private ["PSs9AnyObject", "dataManager"]
+- !private ["PSs9AnyObject", "getParsedWeatherInfo"]
+- !private ["PSs9AnyObject", "getWeatherDataFromServer"]
+- !private ["PSs9AnyObject", "httpClient"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "sendRequest"]
+- !private ["PSs9AnyObject", "weather"]
+- !private ["PSs9AnyObject", "weatherInfoURL"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "double"]
+- !private ["PSs23ArrayLiteralConvertible", "float"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "string"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "Generator"]
+- !private ["PSs25BooleanLiteralConvertible", "Index"]
+- !private ["PSs25BooleanLiteralConvertible", "SubSequence"]
+- !private ["PSs25BooleanLiteralConvertible", "_Element"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "double"]
+- !private ["PSs25BooleanLiteralConvertible", "float"]
+- !private ["PSs25BooleanLiteralConvertible", "init"]
+- !private ["PSs25BooleanLiteralConvertible", "string"]
+- !private ["PSs25BooleanLiteralConvertible", "subscript"]
+- !private ["PSs11BooleanType", "Generator"]
+- !private ["PSs11BooleanType", "Index"]
+- !private ["PSs11BooleanType", "SubSequence"]
+- !private ["PSs11BooleanType", "_Element"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "double"]
+- !private ["PSs11BooleanType", "float"]
+- !private ["PSs11BooleanType", "init"]
+- !private ["PSs11BooleanType", "string"]
+- !private ["PSs11BooleanType", "subscript"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "deinit"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "double"]
+- !private ["PSs14CollectionType", "float"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "string"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "Generator"]
+- !private ["PSs10Comparable", "Index"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "SubSequence"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs10Comparable", "_Element"]
+- !private ["PSs10Comparable", "double"]
+- !private ["PSs10Comparable", "float"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "string"]
+- !private ["PSs10Comparable", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "double"]
+- !private ["PSs28CustomDebugStringConvertible", "float"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "string"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "double"]
+- !private ["PSs23CustomStringConvertible", "float"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "string"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["C13WeatherClient11DataManager", "init"]
+- !private ["C13WeatherClient11DataManager", "weather"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "double"]
+- !private ["PSs28DictionaryLiteralConvertible", "float"]
+- !private ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "string"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "Index"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "SubSequence"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_Element"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "double"]
+- !private ["PSs9Equatable", "float"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "string"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "Generator"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "SubSequence"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "_Element"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "double"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "float"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "string"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "subscript"]
+- !private ["PSs23FloatLiteralConvertible", "Generator"]
+- !private ["PSs23FloatLiteralConvertible", "Index"]
+- !private ["PSs23FloatLiteralConvertible", "SubSequence"]
+- !private ["PSs23FloatLiteralConvertible", "_Element"]
+- !private ["PSs23FloatLiteralConvertible", "double"]
+- !private ["PSs23FloatLiteralConvertible", "float"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs23FloatLiteralConvertible", "string"]
+- !private ["PSs23FloatLiteralConvertible", "subscript"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["C13WeatherClient10HttpClient", "init"]
+- !private ["C13WeatherClient10HttpClient", "sendRequest"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "double"]
+- !private ["PSs9Indexable", "float"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "string"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Generator"]
+- !private ["PSs25IntegerLiteralConvertible", "Index"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "SubSequence"]
+- !private ["PSs25IntegerLiteralConvertible", "_Element"]
+- !private ["PSs25IntegerLiteralConvertible", "double"]
+- !private ["PSs25IntegerLiteralConvertible", "float"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "string"]
+- !private ["PSs25IntegerLiteralConvertible", "subscript"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["V13WeatherClient4JSON", "Generator"]
+- !private ["V13WeatherClient4JSON", "Index"]
+- !private ["V13WeatherClient4JSON", "SubSequence"]
+- !private ["V13WeatherClient4JSON", "_Element"]
+- !private ["V13WeatherClient4JSON", "deinit"]
+- !private ["V13WeatherClient4JSON", "double"]
+- !private ["V13WeatherClient4JSON", "float"]
+- !private ["V13WeatherClient4JSON", "init"]
+- !private ["V13WeatherClient4JSON", "string"]
+- !private ["V13WeatherClient4JSON", "subscript"]
+- !private ["V13WeatherClient13JSONGenerator", "deinit"]
+- !private ["V13WeatherClient9JSONIndex", "Distance"]
+- !private ["V13WeatherClient9JSONIndex", "_DisabledRangeIndex"]
+- !private ["V13WeatherClient9JSONIndex", "deinit"]
+- !private ["P13WeatherClient17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P13WeatherClient17JSONSubscriptType", "init"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo5NSURL", "init"]
+- !private ["PSs21NilLiteralConvertible", "Generator"]
+- !private ["PSs21NilLiteralConvertible", "Index"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs21NilLiteralConvertible", "SubSequence"]
+- !private ["PSs21NilLiteralConvertible", "_Element"]
+- !private ["PSs21NilLiteralConvertible", "double"]
+- !private ["PSs21NilLiteralConvertible", "float"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["PSs21NilLiteralConvertible", "string"]
+- !private ["PSs21NilLiteralConvertible", "subscript"]
+- !private ["Sq", "Some"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs16RawRepresentable", "Generator"]
+- !private ["PSs16RawRepresentable", "Index"]
+- !private ["PSs16RawRepresentable", "SubSequence"]
+- !private ["PSs16RawRepresentable", "_Element"]
+- !private ["PSs16RawRepresentable", "double"]
+- !private ["PSs16RawRepresentable", "float"]
+- !private ["PSs16RawRepresentable", "init"]
+- !private ["PSs16RawRepresentable", "string"]
+- !private ["PSs16RawRepresentable", "subscript"]
+- !private ["O13WeatherClient8Response", "Failure"]
+- !private ["O13WeatherClient8Response", "Success"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "double"]
+- !private ["PSs12SequenceType", "float"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "string"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs5Slice", "double"]
+- !private ["VSs5Slice", "float"]
+- !private ["VSs5Slice", "string"]
+- !private ["VSs5Slice", "subscript"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "Generator"]
+- !private ["PSs24StringLiteralConvertible", "Index"]
+- !private ["PSs24StringLiteralConvertible", "SubSequence"]
+- !private ["PSs24StringLiteralConvertible", "_Element"]
+- !private ["PSs24StringLiteralConvertible", "double"]
+- !private ["PSs24StringLiteralConvertible", "float"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "string"]
+- !private ["PSs24StringLiteralConvertible", "subscript"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "Generator"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "Index"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "SubSequence"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "_Element"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "double"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "float"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "string"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "subscript"]
+- !private ["V13WeatherClient7Weather", "getFormattedTime"]
+- !private ["V13WeatherClient7Weather", "init"]
+- !private ["V13WeatherClient7Weather", "precipProbability"]
+- !private ["V13WeatherClient7Weather", "temperature"]
+- !private ["V13WeatherClient7Weather", "time"]
+- !private ["V13WeatherClient7Weather", "weatherSummary"]
+- !private ["C13WeatherClient10WeatherAPI", "AnyObject"]
+- !private ["C13WeatherClient10WeatherAPI", "Bool"]
+- ["C13WeatherClient10WeatherAPI", "DataManager"]
+- ["C13WeatherClient10WeatherAPI", "HttpClient"]
+- !private ["C13WeatherClient10WeatherAPI", "JSON"]
+- !private ["C13WeatherClient10WeatherAPI", "NSData"]
+- !private ["C13WeatherClient10WeatherAPI", "NSError"]
+- !private ["C13WeatherClient10WeatherAPI", "NSURL"]
+- !private ["C13WeatherClient10WeatherAPI", "Response"]
+- ["C13WeatherClient10WeatherAPI", "String"]
+- ["C13WeatherClient10WeatherAPI", "Void"]
+- ["C13WeatherClient10WeatherAPI", "Weather"]
+- ["C13WeatherClient10WeatherAPI", "WeatherAPI"]
+- !private ["C13WeatherClient10WeatherAPI", "WeatherConstants"]
+- ["C13WeatherClient10WeatherAPI", "WeatherFetchError"]
+- ["C13WeatherClient10WeatherAPI", "WeatherInfoFetched"]
+- !private ["C13WeatherClient10WeatherAPI", "dataManager"]
+- ["C13WeatherClient10WeatherAPI", "deinit"]
+- !private ["C13WeatherClient10WeatherAPI", "getParsedWeatherInfo"]
+- !private ["C13WeatherClient10WeatherAPI", "getWeatherDataFromServer"]
+- ["C13WeatherClient10WeatherAPI", "getWeatherInfo"]
+- !private ["C13WeatherClient10WeatherAPI", "httpClient"]
+- ["C13WeatherClient10WeatherAPI", "init"]
+- ["C13WeatherClient10WeatherAPI", "sharedInstance"]
+- !private ["C13WeatherClient16WeatherConstants", "apiKey"]
+- !private ["C13WeatherClient16WeatherConstants", "weatherInfoURL"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "C13WeatherClient11DataManager"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- !private "C13WeatherClient10HttpClient"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "V13WeatherClient4JSON"
+- !private "V13WeatherClient13JSONGenerator"
+- !private "V13WeatherClient9JSONIndex"
+- !private "P13WeatherClient17JSONSubscriptType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs16RawRepresentable"
+- !private "O13WeatherClient8Response"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "V13WeatherClient7Weather"
+- "C13WeatherClient10WeatherAPI"
+- !private "C13WeatherClient16WeatherConstants"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "7011847141b5a7bc6d0bc8549da0d4c7"

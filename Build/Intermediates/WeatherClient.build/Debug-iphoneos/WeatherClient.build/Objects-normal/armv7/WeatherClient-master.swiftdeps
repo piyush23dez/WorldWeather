@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "26137dd33bbd83d41a6b9cfc4991d31b"
+build_time: [525680403, 282083000]
+inputs:
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/AppDelegate.swift": [525545261, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/Utils/WeatherConstants.swift": [525590910, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/API/WeatherAPI.swift": [525580701, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/View/WeatherView.swift": [525662215, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/API/Libraries/SwiftyJSON.swift": [519251004, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/Model/Weather.swift": [525580496, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/API/DataManager.swift": [525567701, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/Controller/WeatherViewController.swift": [525590544, 0]
+  "/Users/sharmpi/Downloads/WeatherClient/WeatherClient/API/HttpClient.swift": [525569633, 0]

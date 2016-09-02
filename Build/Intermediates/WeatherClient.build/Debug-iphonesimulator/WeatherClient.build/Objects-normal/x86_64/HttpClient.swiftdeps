@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Response"
+- "HttpClient"
+provides-nominal:
+- "O13WeatherClient8Response"
+- "C13WeatherClient10HttpClient"
+provides-member:
+- ["O13WeatherClient8Response", ""]
+- ["C13WeatherClient10HttpClient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSURLSessionConfiguration"
+- "AnyObject"
+- !private "!="
+- !private "NSHTTPURLResponse"
+- !private "=="
+- "NSURL"
+- "NSURLSession"
+- "HttpClient"
+- "Void"
+- "Response"
+- !private "Int"
+depends-member:
+- !private ["PSs9AnyObject", "NSURLSession"]
+- ["PSs9AnyObject", "NSURLSessionConfiguration"]
+- !private ["PSs9AnyObject", "Response"]
+- !private ["PSs9AnyObject", "config"]
+- !private ["PSs9AnyObject", "dataTaskWithURL"]
+- ["PSs9AnyObject", "defaultSessionConfiguration"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "requestCachePolicy"]
+- !private ["PSs9AnyObject", "resume"]
+- !private ["PSs9AnyObject", "session"]
+- !private ["PSs9AnyObject", "statusCode"]
+- !private ["PSs9AnyObject", "timeoutIntervalForRequest"]
+- !private ["PSs9AnyObject", "timeoutIntervalForResource"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "dataTaskWithURL"]
+- ["PSs11CVarArgType", "defaultSessionConfiguration"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs11CVarArgType", "requestCachePolicy"]
+- !private ["PSs11CVarArgType", "resume"]
+- !private ["PSs11CVarArgType", "statusCode"]
+- !private ["PSs11CVarArgType", "timeoutIntervalForRequest"]
+- !private ["PSs11CVarArgType", "timeoutIntervalForResource"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithURL"]
+- ["PSs23CustomStringConvertible", "defaultSessionConfiguration"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "requestCachePolicy"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- !private ["PSs23CustomStringConvertible", "statusCode"]
+- !private ["PSs23CustomStringConvertible", "timeoutIntervalForRequest"]
+- !private ["PSs23CustomStringConvertible", "timeoutIntervalForResource"]
+- !private ["PSs9Equatable", "ReloadIgnoringLocalCacheData"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "dataTaskWithURL"]
+- ["PSs9Equatable", "defaultSessionConfiguration"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "requestCachePolicy"]
+- !private ["PSs9Equatable", "resume"]
+- !private ["PSs9Equatable", "statusCode"]
+- !private ["PSs9Equatable", "timeoutIntervalForRequest"]
+- !private ["PSs9Equatable", "timeoutIntervalForResource"]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs8Hashable", "ReloadIgnoringLocalCacheData"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "dataTaskWithURL"]
+- ["PSs8Hashable", "defaultSessionConfiguration"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["PSs8Hashable", "requestCachePolicy"]
+- !private ["PSs8Hashable", "resume"]
+- !private ["PSs8Hashable", "statusCode"]
+- !private ["PSs8Hashable", "timeoutIntervalForRequest"]
+- !private ["PSs8Hashable", "timeoutIntervalForResource"]
+- ["C13WeatherClient10HttpClient", "AnyObject"]
+- ["C13WeatherClient10HttpClient", "CompletionHandler"]
+- !private ["C13WeatherClient10HttpClient", "Int"]
+- !private ["C13WeatherClient10HttpClient", "NSHTTPURLResponse"]
+- ["C13WeatherClient10HttpClient", "NSURL"]
+- ["C13WeatherClient10HttpClient", "NSURLSession"]
+- ["C13WeatherClient10HttpClient", "NSURLSessionConfiguration"]
+- ["C13WeatherClient10HttpClient", "Response"]
+- ["C13WeatherClient10HttpClient", "Void"]
+- ["C13WeatherClient10HttpClient", "config"]
+- ["C13WeatherClient10HttpClient", "deinit"]
+- ["C13WeatherClient10HttpClient", "init"]
+- ["C13WeatherClient10HttpClient", "sendRequest"]
+- ["C13WeatherClient10HttpClient", "session"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "statusCode"]
+- ["PSo9NSCopying", "defaultSessionConfiguration"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "requestCachePolicy"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "timeoutIntervalForRequest"]
+- !private ["PSo9NSCopying", "timeoutIntervalForResource"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["CSo8NSObject", "dataTaskWithURL"]
+- ["CSo8NSObject", "defaultSessionConfiguration"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "requestCachePolicy"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "timeoutIntervalForRequest"]
+- !private ["CSo8NSObject", "timeoutIntervalForResource"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithURL"]
+- ["PSo16NSObjectProtocol", "defaultSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "requestCachePolicy"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "timeoutIntervalForRequest"]
+- !private ["PSo16NSObjectProtocol", "timeoutIntervalForResource"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["OSC23NSURLRequestCachePolicy", "ReloadIgnoringLocalCacheData"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithURL"]
+- !private ["CSo12NSURLSession", "init"]
+- ["CSo25NSURLSessionConfiguration", "defaultSessionConfiguration"]
+- !private ["CSo25NSURLSessionConfiguration", "requestCachePolicy"]
+- !private ["CSo25NSURLSessionConfiguration", "timeoutIntervalForRequest"]
+- !private ["CSo25NSURLSessionConfiguration", "timeoutIntervalForResource"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16RawRepresentable", "ReloadIgnoringLocalCacheData"]
+- ["O13WeatherClient8Response", "AnyObject"]
+- ["O13WeatherClient8Response", "Failure"]
+- ["O13WeatherClient8Response", "Success"]
+- !private ["SS", "deinit"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- "PSs8Hashable"
+- "C13WeatherClient10HttpClient"
+- !private "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo17NSHTTPURLResponse"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "OSC23NSURLRequestCachePolicy"
+- !private "CSo13NSURLResponse"
+- !private "CSo12NSURLSession"
+- "CSo25NSURLSessionConfiguration"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16RawRepresentable"
+- "O13WeatherClient8Response"
+- !private "SS"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "7b340c68f92d69afedb6598d72c3f5b3"

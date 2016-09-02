@@ -1,0 +1,144 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherConstants"
+provides-nominal:
+- "C13WeatherClient16WeatherConstants"
+- "OC13WeatherClient16WeatherConstants8NibNames"
+provides-member:
+- ["C13WeatherClient16WeatherConstants", ""]
+- ["OC13WeatherClient16WeatherConstants8NibNames", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "String"
+- "WeatherConstants"
+- !private "UIScreen"
+- "=="
+- "StringLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "UIScreen"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "mainScreen"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- !private ["PSs11CVarArgType", "mainScreen"]
+- !private ["PSs10Comparable", "hashValue"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- !private ["PSs23CustomStringConvertible", "mainScreen"]
+- ["PSs9Equatable", "WeatherView"]
+- !private ["PSs9Equatable", "bounds"]
+- ["PSs9Equatable", "hashValue"]
+- !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "mainScreen"]
+- !private ["PSs9Equatable", "size"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- ["PSs8Hashable", "WeatherView"]
+- !private ["PSs8Hashable", "bounds"]
+- ["PSs8Hashable", "hashValue"]
+- !private ["PSs8Hashable", "mainScreen"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- !private ["PSs11IntegerType", "hashValue"]
+- !private ["P13WeatherClient17JSONSubscriptType", "hashValue"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "mainScreen"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "String"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "WeatherView"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "deinit"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "hashValue"]
+- ["OC13WeatherClient16WeatherConstants8NibNames", "nibName"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- !private ["PSs10Strideable", "hashValue"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- ["C13WeatherClient16WeatherConstants", "CGFloat"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLatLongDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLatitudeDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "EmptyLongitudeDialogMessage"]
+- ["C13WeatherClient16WeatherConstants", "NibNames"]
+- ["C13WeatherClient16WeatherConstants", "String"]
+- !private ["C13WeatherClient16WeatherConstants", "UIScreen"]
+- ["C13WeatherClient16WeatherConstants", "apiKey"]
+- ["C13WeatherClient16WeatherConstants", "deinit"]
+- ["C13WeatherClient16WeatherConstants", "init"]
+- ["C13WeatherClient16WeatherConstants", "screenHeight"]
+- ["C13WeatherClient16WeatherConstants", "screenWidth"]
+- ["C13WeatherClient16WeatherConstants", "weatherInfoURL"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "size"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- !private ["PSs11_Strideable", "hashValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- !private "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "P13WeatherClient17JSONSubscriptType"
+- !private "PSs14MirrorPathType"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "OC13WeatherClient16WeatherConstants8NibNames"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- "C13WeatherClient16WeatherConstants"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "ff1008a3505e0719c34a459e6c63ceb2"
